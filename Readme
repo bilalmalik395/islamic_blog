@@ -1,0 +1,50 @@
+# Dynamic Blog Website
+
+A fully functional dynamic blog website built with PHP and MySQL during my internship.
+
+## Features
+
+- User Registration & Login
+- Secure Password Hashing
+- User Logout
+- Add New Blog Posts
+- Image Upload with Posts
+- View All Blog Posts
+- View Individual Post Details
+- Category System (Quran, Hadith, Dua)
+- Search Functionality
+- Fully Responsive Design
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- PHP
+- MySQL
+
+## Setup Instructions
+
+1. Download and install XAMPP
+2. Clone this repository into `htdocs` folder
+3. Import `database.sql` file into phpMyAdmin
+4. Start Apache and MySQL in XAMPP
+5. Open browser and go to `localhost/your-folder-name`
+
+## Database
+
+Import the included `.sql` file to set up the database automatically.
+
+## Security
+
+- Prepared statements used for all database queries
+- Passwords are hashed using PHP `password_hash()`
+
+## Screenshots
+
+Add your project screenshots here.
+
+## Author
+
+Muhammad Bilal
